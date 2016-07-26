@@ -1,0 +1,59 @@
+body{
+    
+ background: #c2e59c; /* fallback for old browsers */
+ background: -webkit-linear-gradient(to left, #c2e59c , #64b3f4); /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to left, #c2e59c , #64b3f4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#brandname{
+ font-size:200px;
+ font-family: open sans light;
+ text-align: center;
+ color:aliceblue;
+  display: block;
+   text-shadow: 3px 3px 120px white;
+}
+.wrap{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#controls input{
+  padding:2px;
+  border:2px solid #f4f4f4;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+#controls button{
+ padding: 10px;
+ font-family: open sans semibold;
+ color: beige;
+ border: none;
+ border-radius: 10px;
+ background: #e74c3c; /* fallback for old browsers */        
+}
+
+#controls button:hover{
+  background: #c0392b;
+  cursor: pointer;
+}
+
+label,h4{
+ color:aliceblue;
+ font-family: open sans;
+}
+
+h4{
+   font-family: open sans light;
+   color: azure;
+  text-align: center;
+}
