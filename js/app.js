@@ -26,7 +26,12 @@ var  generateWord =  function(length){
 var makeBranding = function(){
     var wordLength = Number(document.getElementById("worldlength").value);
     var brandName = generateWord(wordLength);
-    document.getElementById("brandname").innerHTML = brandName;
+    var brandElem = document.getElementById("brandname");
+    brandElem.innerHTML = brandName;
+    brandElem.className = "Animated flipInx";
+    brandElem.addEventListener("webkitAnimationEnd", function(){
+        brandElem.className = "";
+    });
 }
 
 window.onload = function(event){
