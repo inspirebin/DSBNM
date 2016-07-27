@@ -7,7 +7,7 @@ body{
 
 #brandname{
  font-size:200px;
- font-family: open sans light;
+ font-family: 'Lato', sans-serif;
  text-align: center;
  color:aliceblue;
   display: block;
@@ -35,7 +35,7 @@ body{
 
 #controls button{
  padding: 10px;
- font-family: open sans semibold;
+ font-family: 'Lato', sans-serif;
  color: beige;
  border: none;
  border-radius: 10px;
@@ -49,11 +49,11 @@ body{
 
 label,h4{
  color:aliceblue;
- font-family: open sans;
+ font-family: 'Lato', sans-serif;
 }
 
 h4{
-   font-family: open sans light;
+   font-family: 'Lato', sans-serif;
    color: azure;
   text-align: center;
 }
