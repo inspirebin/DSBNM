@@ -1,4 +1,4 @@
-**DSBNM** Dead Simple Brand name generator 
+**DSBNM** Dead Simple Brand name generator https://inspirebin.github.io/dsbnm
 ===================
 
 A simple tool that will help you generate names that can be easily pronounced.
